@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# Chatbot Flow builder using React Flow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/darshan220/Chatbot_flow_builder/assets/67816181/adad800e-1ab5-45c7-965e-efa830f0f40b)
 
-## Available Scripts
+This project is a basic React application developed using React Flow. It showcases the functionality of dragging and dropping nodes, as well as connecting them. Additionally, it allows for saving and restoring the state of the nodes and their connections.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1) Drag and drop nodes.
+2) Connect nodes by clicking and dragging from one node's edge to another.
+3) Clicking on a node selects it, and its label can be modified from the sidebar.
+4) Clicking anywhere on the pane deselects the selected node.
+5) Save and restore functionality, which saves the current state of the nodes and their connections, and can restore the state later.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Project Setup
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+First, clone the repository to your local machine:
+`https://github.com/darshan220/Chatbot_flow_builder.git`
 
-### `npm test`
+Install the project dependencies:
+`yarn install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To start the project in development mode:
+`yarn start`
 
-### `npm run build`
+### Support 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you are having issues with the project, please let me know. I have an email, danpatel22@gmail.com, where you can reach out to me.
