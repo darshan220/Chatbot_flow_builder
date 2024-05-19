@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .h-calc-100vh-minus-56 {
+    height: calc(100vh - 56px);
+    width: 80%;
+  }
+  .blue-filter {
+    filter: invert(45%) sepia(100%) saturate(747%) hue-rotate(184deg) brightness(93%) contrast(92%);
+  }
+}
+
+@layer components {
+  .rightsidebar {
+    width: 20%;
+    border-left: 1px solid #d7d7d7;
+  }
+
+  .text-message {
+    padding: 0.5rem;
+    display: flex;
+    border-bottom: 1px solid #d7d7d7;
+  }
+}
